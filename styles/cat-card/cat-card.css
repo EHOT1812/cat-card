@@ -5,6 +5,15 @@
     align-self: center;
 }
 
+.layout > .layout-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0 1px 1px #000000;
+}
+
 .cards > .card__item_wrapper > .card__item {
     position: relative;
     display: flex;
@@ -172,6 +181,7 @@
 @media (min-width: 320px) {
     .layout {
         width: 100%;
+        flex-direction: column;
     }
 
     .cards {
